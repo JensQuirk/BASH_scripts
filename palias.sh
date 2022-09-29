@@ -3,8 +3,8 @@
 #Make persistent aliases quickly
 
 #Format: palias [name] [command]
-#Create persistent alias for palias: sh [loaction of palias.sh file]/palias.sh -s
-#Remember to execute .bashrc to use aliases in current shell session.(source ~/.bashrc)
+#Create persistent alias for palias: bash [loaction of palias.sh file]/palias.sh -s
+#Remember to execute .bashrc to use aliases in current shell session: source ~/.bashrc
 
 if [ "$1" = "-s" ];
 then
